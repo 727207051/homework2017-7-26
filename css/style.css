@@ -1,0 +1,72 @@
+body,h1,h2,h3,h4,div,ul,ol,li,dl,dt,dd,form,a,img,span,em,i,strong,b{
+	margin: 0;padding: 0;
+	}
+li{
+	 list-style: none;
+	 }
+img{
+	border: 0;
+	vertical-align:top;
+	}
+body{
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color:#888c9a;
+	background:#f7f7f7;
+	}
+a{
+	text-decoration: none;
+	color:#888c9a;
+	}
+a:hover{
+	color:#d60009;
+	}
+.clearfix:before,.clearfix:after{
+	content: " ";
+	display: table;
+	}
+.clearfix:after{
+	clear: both;
+	}
+
+/*头部*/
+#header{width: 100%;background: url(../images/header-bg.jpg) top center no-repeat;}
+
+.layer{width:1200px;margin: 0 auto;}
+.head-top{height:254px}
+
+.header-logo{float: left; margin-top:42px ;}
+
+.navigation{float: right;width: 692px;margin-bottom:51px;}
+.navigation dl{line-height: 30px;margin-top: 42px;text-align: right;width: 134px;margin-left: 39px;float: left;}
+.navigation dd{color: #2e3037;width: 134px;border-bottom: solid 1px #ededed;margin-bottom: 10px;}
+
+.head-bottom{margin-left: -360px;height: 341px;}
+area{ outline: none;}
+
+/*本体不算ppt*/
+#content{margin-top: 84px;height: 482px;}
+#content .service{float: left;width: 240px;}
+.content-r{background: #fff;height: 480px;width:960px;float: right;}
+.content-r ul{margin: 46px 0 0 24px;float: left;}
+.content-r li{width:215px;/*height: 480px;padding: 46px 0 0 24px;*/}
+.content-r dl{height: 339px; border-right: solid 1px #e8e8e8;}
+.content-r .delx{border-right: solid 0px #e8e8e8;}
+.content-r .content-r-tit{height: 50px;}
+.content-r i{display: block; margin-bottom: 19px;}
+.content-r .Consulting{background: url(../images/cotent-service.gif)  0 -2px no-repeat;height: 31px; width: 25px;}
+.content-r .Design{background: url(../images/cotent-service.gif)  -54px -2px no-repeat;height: 31px; width: 28px;}
+.content-r .Brand{background: url(../images/cotent-service.gif)  -120px -4px no-repeat;height: 27px; width: 30px;}
+.content-r .Marketing{background: url(../images/cotent-service.gif)  -188px 0px no-repeat;height: 32px; width: 27px;}
+.content-r dt{font-size: 18px;color: #3a3f54;font-family: "[FZLTZHK]";line-height: 18px;}
+.content-r hr{border: solid 0px #e8e8e8;height: 1px;background: #e8e8e8;margin-left: -24px;margin-bottom: 15px;display: block;}
+.content-r span{font-size: 15px;margin: 5px 0 16px 0;line-height: 15px;display: block;}
+.content-r dd{line-height: 24px;}
+
+
+/*联系张小姐滚动条*/
+#role{background: #000000;width:115px;height: 182px;position: fixed;right: 0;top:50%;} 
+.role-top{width: 100px;margin: 8px auto 0 ;border-bottom: solid 1px #910202;}
+#role p{line-height: 21px;color: #FFFFFF;margin:0;font-size: 12px;}
+.role-bottom{width: 100px;margin: 0px auto;}
+.role-bottom span{color: white;}
